@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-color: #000000;    
+    font-family: "Inter", sans-serif;
+}
+
+/* Wrapper for the form */
+.form-wrapper {
+    width: 50%; /* 70% of the viewport width */
+    height: 60%; /* 90% of the viewport height */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Allows positioning of the logo inside the form-wrapper */
+    gap: 50px;
+}
+
+.header{
+    font-size: 30px;
+
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
